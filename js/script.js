@@ -30,15 +30,15 @@ function showCharacterData(results) {
 
             const status = result.status
             const characterStatus = document.createElement('h2')
-            characterStatus.textContent = status
+            characterStatus.textContent = `Status: ${status}`
 
             const species = result.species
             const characterSpecies = document.createElement('h2')
-            characterSpecies.textContent = species
+            characterSpecies.textContent = `Specie: ${species}`
 
             const gender = result.gender
             const characterGender = document.createElement('h2')
-            characterGender.textContent = gender
+            characterGender.textContent = `Status: ${gender}`
 
             characterDiv.appendChild(characterName)
             characterDiv.appendChild(characterImage)

@@ -72,8 +72,29 @@ div > img {
   line-height: 1;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 768px) {
   #characterContainer > div > h1, h2 {
     font-size: 20px;
+  }
+  #characterContainer > div {
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    width: calc(50% - 40px);
+    justify-content: center;
+    border-radius: 25px;
+  }
+}
+
+@media screen and (max-width: 526px) {
+  #characterContainer > div > h1, h2 {
+    font-size: 16px;
+  }
+  #characterContainer > div {
+    background-color: white;
+    padding: 10px;
+    width: 100%;
+    justify-content: center;
+    border-radius: 25px;
   }
 }
