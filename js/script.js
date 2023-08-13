@@ -48,5 +48,4 @@ function showCharacterData(results) {
 
             characterContainer.appendChild(characterDiv)
       })
-      
 }

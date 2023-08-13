@@ -1,4 +1,4 @@
-/* Estilos generales */
+/* General styles */
 * {
   font-family: Cascadia Code;
   padding: 1.2%;
@@ -18,7 +18,7 @@ h1 {
   font-weight: bold;
 }
 
-/* Buscador */
+/* Search bar and button */
 
 input[type="text"] {
   padding: 20px;
@@ -37,7 +37,7 @@ button {
   border-radius: 20px;
 }
 
-/* Información de Personajes */
+/* Characters information */
 
 #characterContainer {
   display: flex;
@@ -72,6 +72,7 @@ div > img {
   line-height: 1;
 }
 
+/* Responsive */
 @media screen and (max-width: 768px) {
   #characterContainer > div > h1, h2 {
     font-size: 20px;
